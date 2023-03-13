@@ -1,0 +1,725 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/*
+TODOS
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: black;
+    height: 110px;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+
+.imgfilhocab {
+    margin-left: 30px;
+    width: 80px;
+
+}
+
+.pfilhocab {
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.afilhocab1 {
+    margin-left: 1300px;
+    color: #FFFFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.afilhocab2 {
+    margin-left: 10px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    background-color: black;
+    height: 50px;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: bold;
+}
+
+/*
+HOME
+*/
+
+.paimain {
+    display: flex;
+    text-align: center;
+}
+
+.mainfilho1 {
+    background-color: #ffffe7;
+    height: calc(100vh - 110px);
+    flex: 50%;
+}
+
+.mainfilho2 {
+    background-color: #dbdbdb;
+    height: calc(100vh - 110px);
+    flex: 50%;
+
+}
+
+.titulo1main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.balao {
+    height: 470px;
+}
+
+.texto {
+    margin: 20px 30px 20px 30px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.buttonhome {
+    background-color: rgb(0, 0, 139);
+    color: white;
+    padding: 15px;
+    border: 5px solid orange;
+    border-radius: 5px;
+    margin-left: 285px;
+    width: 384px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+
+}
+
+.buttonhome:hover {
+    background-color: rgba(0, 0, 139, 0.7);
+
+}
+
+.titulo2main {
+    color: darkblue;
+    margin-top: 20px;
+}
+
+.titulo3main {
+    color: darkblue;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 150px;
+}
+
+
+.youtube {
+    width: 470px;
+    height: 350px;
+    margin: 150px 0 20px 0;
+    border: 0;
+
+}
+
+
+
+@media (min-height: 1080px) {
+
+    .buttonhome {
+        margin-top: 180px;
+    }
+
+    .filiais1 {
+        margin-top: 130px;
+    }
+
+
+
+
+}
+
+
+/*
+LOCAL
+*/
+
+.mainlocal {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: calc(100vh - 110px);
+    background-color: #ffffe7;;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 65px;
+    right: 20px;
+    width: 80px;
+}
+
+.filiais1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 60px;
+}
+
+.filiais2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+.riodejaneiro {
+    font-size: 20px;
+    color: rgb(254, 0, 0);
+    font-weight: bold;
+    text-decoration: underline;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+
+.titulo1local {
+    margin: 20px 0 20px 0;
+
+}
+
+.map {
+    margin-bottom: 50px;
+    border:0;
+}
+
+.titulo2local {
+    margin-bottom: 50px;
+}
+
+/* 
+
+FILMES 
+
+*/
+
+.filmesmain {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 110px);
+    background-color: #ffffe7;;
+}
+
+.titulofilmes {
+    margin-left: 40px;
+}
+
+.spanred {
+    color: red;
+}
+
+
+.sectionfilmes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section1filmes {
+    margin: 0 0 0 40px;
+    border: 2px solid darkmagenta;
+    border-radius: 5px;
+    width: 300px;
+    height: 600px;
+    text-align: center;
+
+}
+
+.titulospider {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.spiderman {
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.textospider {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: green;
+    text-align: start;
+
+}
+
+.section2filmes {
+
+    border: 2px solid darkmagenta;
+    border-radius: 5px;
+    width: 300px;
+    height: 600px;
+    text-align: center;
+}
+
+.titulobatman {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.batman {
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.textobatman {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: green;
+    text-align: start;
+}
+
+.section3filmes {
+    margin-right: 40px;
+    border: 2px solid darkmagenta;
+    border-radius: 5px;
+    width: 300px;
+    height: 600px;
+    text-align: center;
+}
+
+.tituloxmen {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.xmen {
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.textoxmen {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: green;
+    text-align: start;
+}
+
+.flextable {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 300px;
+    font-size: 18px;
+}
+
+th,
+td {
+
+    border: 1px solid darkmagenta;
+}
+
+.brown {
+    color: brown;
+    font-weight: bold;
+}
+
+.green,
+#green {
+    color: green;
+    font-weight: bold;
+}
+
+.border1 {
+    border-top: 2px solid darkmagenta;
+}
+
+.border2 {
+    border-right: 2px solid darkmagenta;
+}
+
+.border3,
+#border3 {
+    border-top: 2px solid darkmagenta;
+}
+
+.x1 {
+    position: absolute;
+    top: 190px;
+    left: 300px;
+    font-weight: bold;
+    font-size: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.x2 {
+    position: absolute;
+    top: 190px;
+    left: 1060px;
+    width: 30px;
+    cursor: pointer;
+
+}
+
+.x3 {
+    position: absolute;
+    top: 190px;
+    right: 50px;
+    width: 30px;
+    cursor: pointer;
+
+}
+
+
+/* responsividade */
+
+@media (max-width: 390px) {
+
+
+    .paimain {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .afilhocab1 {
+        margin-left: 5px;
+        font-size: 16px;
+
+    }
+
+    .afilhocab2 {
+        margin-left: 10px;
+        font-size: 16px;
+        display: none;
+
+    }
+
+    .buttonhome {
+        margin: 10px 0 10px 0;
+        width: 100vw;
+    }
+
+
+
+    .imgfilhocab {
+        margin-left: 20px;
+    }
+
+    .pfilhocab {
+        margin-left: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+
+    }
+
+    .balao{
+        width: 90vw;
+    }
+
+    .youtube{
+        width: 90vw;
+    }
+
+    /*local*/
+
+
+
+    .map {
+        width: 90vw;
+    }
+
+
+    .filiais1 {
+        font-size: 16px;
+        margin-right: 60px;
+    }
+
+    .filiais2 {
+        font-size: 16px;
+        margin-right: 25px;
+    }
+
+    .riodejaneiro {
+        font-size: 16px;
+        text-decoration: underline;
+        margin-left: 60px;
+        margin-bottom: 20px;
+    }
+
+    .titulo1local {
+        font-size: 14px;
+        margin: 20px 0 20px 0;
+
+    }
+
+    .titulo2local {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    /*filmes*/
+
+    .filmesmain {
+        display: flex;
+        flex-direction: column;
+        height: 2100px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .sectionfilmes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .x1 {
+        top: 210px;
+        left: 300px;
+    }
+
+    .x2 {
+        top: 830px;
+        left: 300px;
+    }
+
+    .x3 {
+        top: 1450px;
+        left: 300px;
+    }
+
+    .section1filmes,
+    .section2filmes,
+    .section3filmes {
+        margin: 0;
+        margin-bottom: 20px;
+        border: 2px solid darkmagenta;
+    }
+
+    .titulofilmes {
+        margin: 0;
+    }
+
+
+}
+
+
+@media (min-width: 393px) and (max-width: 600px) {
+    header {
+        width: 100vw;
+    }
+
+    .paimain {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .afilhocab1 {
+        margin-left: 5px;
+        font-size: 16px;
+
+    }
+
+    .afilhocab2 {
+        margin-left: 10px;
+        font-size: 16px;
+        margin-right: 10px;
+
+    }
+
+    .buttonhome {
+        width: 100vw;
+        margin: 10px 0 10px 0;
+    }
+
+    .balao {
+        width: 100vw;
+    }
+
+    .youtube {
+        width: 100vw;
+    }
+
+    .imgfilhocab {
+        margin-left: 20px;
+    }
+
+    .pfilhocab {
+        margin-left: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+    }
+
+    /*local*/
+    .map {
+        width: 90vw;
+    }
+
+    .whatsapp {
+        width: 60px;
+    }
+
+    /*filmes*/
+
+    .filmesmain {
+        display: flex;
+        flex-direction: column;
+        height: 2100px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .sectionfilmes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .x1 {
+        top: 210px;
+        left: 315px;
+    }
+
+    .x2 {
+        top: 830px;
+        left: 315px;
+    }
+
+    .x3 {
+        top: 1450px;
+        left: 315px;
+    }
+
+    .section1filmes,
+    .section2filmes,
+    .section3filmes {
+        margin: 0;
+        margin-bottom: 20px;
+        border: 2px solid darkmagenta;
+    }
+
+    .titulofilmes {
+        margin: 0;
+    }
+
+
+}
+
+@media (min-width: 750px) and (max-width:850px) {
+    .paimain {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .afilhocab1 {
+        margin-left: 290px;
+    }
+
+    .afilhocab2 {
+        margin-left: 10px;
+    }
+
+    .buttonhome {
+        margin: 0;
+        width: 50vw;
+        margin-bottom: 10px;
+        margin-left: 200px;
+    }
+
+    .imgfilhocab {
+        margin-left: 20px;
+    }
+
+    .pfilhocab {
+        margin-left: 10px;
+        font-size: 22px;
+    }
+
+    .filmesmain {
+        display: flex;
+        flex-direction: column;
+        height: 2100px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .sectionfilmes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .x1 {
+        top: 210px;
+        left: 495px;
+    }
+
+    .x2 {
+        top: 830px;
+        left: 495px;
+    }
+
+    .x3 {
+        top: 1450px;
+        left: 495px;
+    }
+
+    .section1filmes,
+    .section2filmes,
+    .section3filmes {
+        margin: 0;
+        margin-bottom: 20px;
+        border: 2px solid darkmagenta;
+    }
+
+    .titulofilmes {
+        margin: 0;
+    }
+
+}
